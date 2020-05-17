@@ -109,7 +109,7 @@ function husigi(){
     const like = likeId.value;
     const say = sayId.value;
     const result = "「" + name + "はねぇ〜、" + prefecture + "の妖精さんの友達の" + name + "なの〜。" + inout  + "で" + hobby + "と" + food + "ともくもくした雲みたいなわたあめが好きなの〜。最近は" + like + "も好きなの〜。確か" + star + "なの〜" + say + "」";
-    Img.src = https://tatatatto.github.io/introduction/blob/master/yumekawa_girl.png";
+    Img.src = "https://tatatatto.github.io/introduction/blob/master/yumekawa_girl.png";
     return result;
 }
 function gowasu(){
