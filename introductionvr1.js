@@ -17,7 +17,7 @@ const image = document.getElementById('imageArea');
 
 const Img = document.createElement('img');
 Img.classList.add('img');
-Img.src = "https://tatatatto.github.io/introduction/blob/master/mirror.png";
+Img.src = "https://tatatatto.github.io/introduction/mirror.png";
 image.appendChild(Img);
 
 
@@ -96,7 +96,7 @@ function desuwa(){
     const like = likeId.value;
     const say = sayId.value;
     const result = "「わたくしは" + prefecture + "出身、" + star + "の" + name + "ですわ。" + inout  + "で趣味は" + hobby + "、好きな食べ物は" + food + "ですわ。最近は" + like + "を嗜んでおりますわ。" + say + "」";
-    Img.src = "https://tatatatto.github.io/introduction/blob/master/hime_takabisya_laugh.png";
+    Img.src = "https://tatatatto.github.io/introduction/hime_takabisya_laugh.png";
     return result;
 }
 function husigi(){
@@ -109,7 +109,7 @@ function husigi(){
     const like = likeId.value;
     const say = sayId.value;
     const result = "「" + name + "はねぇ〜、" + prefecture + "の妖精さんの友達の" + name + "なの〜。" + inout  + "で" + hobby + "と" + food + "ともくもくした雲みたいなわたあめが好きなの〜。最近は" + like + "も好きなの〜。確か" + star + "なの〜" + say + "」";
-    Img.src = "https://tatatatto.github.io/introduction/blob/master/yumekawa_girl.png";
+    Img.src = "https://tatatatto.github.io/introduction/yumekawa_girl.png";
     return result;
 }
 function gowasu(){
@@ -122,7 +122,7 @@ function gowasu(){
     const like = likeId.value;
     const say = sayId.value;
     const result = "「" + prefecture + "出身、" + star + "の" + name + "でごわす。" + inout  + "で趣味は" + hobby + "、好物はちゃんこ鍋と" + food + "でごわす。最近ハマっていることは" + like + "ごわす。" + say + "」";
-    Img.src = "https://tatatatto.github.io/introduction/blob/master/sumo_rikishi_harite2.png";
+    Img.src = "https://tatatatto.github.io/introduction/sumo_rikishi_harite2.png";
     return result;
 }
 function daze(){
@@ -135,7 +135,7 @@ function daze(){
     const like = likeId.value;
     const say = sayId.value;
     const result = "俺様は" + prefecture + "出身、" + star + "の" + name + "だぜぇ。" + inout  + "で趣味は" + hobby + "、好きな食べ物は" + food + "だぜぇ。最近ハマっていることは" + like + "なんだぜぇ。" + say;
-    Img.src = "https://tatatatto.github.io/introduction/blob/master/mild_yankee_dqn.png";
+    Img.src = "https://tatatatto.github.io/introduction/mild_yankee_dqn.png";
     return result;
 }
 function desumasu(){ 
@@ -150,9 +150,9 @@ function desumasu(){
     const result = "「" + prefecture + "出身、" + star + "の" + name + "です。" + inout  + "で趣味は" + hobby + "、好きな食べ物は" + food + "です。最近ハマっていることは" + like + "です。" + say + "」";
     let aaa = Math.floor(Math.random()*2);
     if(aaa){
-    Img.src = "https://tatatatto.github.io/introduction/blob/master/seibetsu_woman_man.png";
+    Img.src = "https://tatatatto.github.io/introduction/seibetsu_woman_man.png";
     return result;}
-    Img.src = "https://tatatatto.github.io/introduction/blob/master/seibetsu_woman_man_child.png";
+    Img.src = "https://tatatatto.github.io/introduction/seibetsu_woman_man_child.png";
     return result;
 }
 
