@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>簡単自己紹介カード作成</title>
+</head>
+<body>
+
+    <h1 id='tweetArea'>簡単に自己紹介カードが作れます</h1>
+
+    <div id="imageArea"></div>
+
+    <p id="resultArea"></p>
+
+    <div id="questionArea">
+    
+    <h3>各質問に答えてください</h3>
+
+        <h4>名字は？</h4>
+        <input type="text" id="AnameArea" size="40" maxlength="20">
+        <h4>名前は？</h4>
+        <input type="text" id="BnameArea" size="40" maxlength="20">
+
+        <h4>出身は？</h4>
+        <select id="prefectureArea">
+            <option>横浜県</option>
+            <option>関東地方</option>
+            <option>中部地方</option>
+            <option>近畿地方</option>
+            <option>中国地方</option>
+            <option>四国地方</option>
+            <option>九州沖縄</option>
+            <option>東北地方</option>
+            <option>北海道</option>
+        </select>
+
+        <h4>性別は？</h4>
+        <select id="genderArea">
+                <option>男性</option>
+                <option>女性</option>
+                <option>その他</option>
+                
+        </select>
+
+        <h4>星座は？</h4>
+        <select id="starArea">
+            <option>水瓶座</option>
+            <option>魚座</option>
+            <option>牡羊座</option>
+            <option>牡牛座</option>
+            <option>双子座</option>
+            <option>蟹座</option>
+            <option>獅子座</option>
+            <option>乙女座</option>
+            <option>天秤座</option>
+            <option>蠍座</option>
+            <option>射手座</option>
+            <option>山羊座</option>
+            </select>
+        <h4>インドア派？アウトドア派？</h4>
+        <select id="inoutArea">
+            <option>インドア派</option>
+            <option>アウトドア派</option>
+        </select>
+
+        <h4>趣味は？</h4>
+        <input type="text" id="hobbyArea" size="40" maxlength="20">
+
+        <h4>好きな食べ物は？</h4>
+        <input type="text" id="foodArea" size="40" maxlength="20">
+
+        <h4>好きな音楽、映画、ドラマ、アニメ、漫画は？</h4>
+        <input type="text" id="likeArea" size="40" maxlength="30">
+
+        <h4>最後に一言</h4>
+        <input type="text" id="sayArea" size="40" maxlength="40">        
+
+    
+
+<button id="button">入力完了</button>
+
+</div>
+
+<script src="introductionvr1.js"></script>
+
+
+</body>
+</html>
