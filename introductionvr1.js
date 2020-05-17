@@ -17,7 +17,7 @@ const image = document.getElementById('imageArea');
 
 const Img = document.createElement('img');
 Img.classList.add('img');
-Img.src = "mirror.png";
+Img.src = "https://tatatatto.github.io/introduction/blob/master/mirror.png";
 image.appendChild(Img);
 
 
